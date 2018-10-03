@@ -12,4 +12,6 @@ end
 
 test = [1, 2, 3]
 
-my_collect(test)
+my_collect(test) do |num|
+  num + 1 
+end
