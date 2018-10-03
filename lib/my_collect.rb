@@ -8,6 +8,8 @@ def my_collect(array)
   end
   collection
   puts collection[0]
+  puts collection[1]
+  puts collection[2]
 end
 
 
