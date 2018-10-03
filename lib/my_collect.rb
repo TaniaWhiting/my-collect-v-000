@@ -13,9 +13,5 @@ def my_collect(array)
 end
 
 
-test = ["a", "b", "c"]
 
-my_collect(test) do |letter|
-  letter.upcase
-end
 
