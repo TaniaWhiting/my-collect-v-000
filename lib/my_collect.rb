@@ -11,9 +11,9 @@ def my_collect(array)
 end
 
 
-test = [1, 2, 3]
+test = ["a", "b", "c"]
 
-my_collect(test) do |num|
-  puts num 
+my_collect(test) do |letter|
+  letter.upcase
 end
 
