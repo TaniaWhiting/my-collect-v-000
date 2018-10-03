@@ -7,6 +7,7 @@ def my_collect(array)
     i += 1
   end
   collection
+  puts collection[0]
 end
 
 
@@ -16,4 +17,3 @@ my_collect(test) do |num|
   num + 1 
 end
 
-puts collection[0]
