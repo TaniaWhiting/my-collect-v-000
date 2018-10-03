@@ -8,3 +8,8 @@ def my_collect(array)
   end
   collection
 end
+
+
+test = [1, 2, 3]
+
+my_collect(test)
