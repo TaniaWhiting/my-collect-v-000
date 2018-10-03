@@ -7,11 +7,13 @@ def my_collect(array)
     i += 1
   end
   collection
-  puts collection[0]
-  puts collection[1]
-  puts collection[2]
+ 
 end
 
 
+test = ["a", "b", "c"]
 
+my_collect(test) do |letter|
+  letter.upcase
+end
 
